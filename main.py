@@ -5,3 +5,6 @@ class Calculator:
     def add(self, num):
         self.result += num
         return self.result
+
+     def minusFunc(a,b):
+        return a-b
