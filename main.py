@@ -2,5 +2,9 @@ class Calculator:
     def __init__(self):
         self.result = 0
 
-    def minusFunc(a,b):
+    def add(self, num):
+        self.result += num
+        return self.result
+
+     def minusFunc(a,b):
         return a-b
