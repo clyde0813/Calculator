@@ -6,5 +6,8 @@ class Calculator:
         self.result += num
         return self.result
 
-     def minusFunc(a,b):
-        return a-b
+    def minusFunc(self, num):
+        return self.result - num
+
+    def upstreamTest(self):
+        return "업스트림 테스트"
